@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mini Chat GPT2</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div id="chat-container">
+    <div id="chat-window"></div>
+    <input type="text" id="user-input" placeholder="Type your message">
+    <div id="buttons">
+        <button id="send-btn">Send</button>
+        <button id="save-btn">Save Conversation</button>
+        <button id="history-btn">History</button>
+    </div>
+    <div id="history-list"></div>
+</div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
