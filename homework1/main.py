@@ -3,7 +3,7 @@ from tkinter import messagebox, Toplevel, Listbox, Scrollbar, END
 from PIL import Image, ImageTk, ImageSequence
 import json
 import os
-import game  # Importăm modulul complet
+import game
 
 HISTORY_FILE = "game_history.json"
 
