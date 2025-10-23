@@ -1,0 +1,33 @@
+Sentence: flying planes can be dangerous
+flying         amod           planes         []
+planes         nsubj          be             ['flying']
+can            aux            be             []
+be             ROOT           be             ['planes', 'can', 'dangerous']
+dangerous      acomp          be             []
+============================================================
+
+Sentence: The parents of the bride and the groom were flying
+The            det            parents        []
+parents        nsubj          flying         ['The', 'of', 'and', 'groom']
+of             prep           parents        ['bride']
+the            det            bride          []
+bride          pobj           of             ['the']
+and            cc             parents        []
+the            det            groom          []
+groom          conj           parents        ['the']
+were           aux            flying         []
+flying         ROOT           flying         ['parents', 'were']
+============================================================
+
+Sentence: The groom loves dangerous planes more than the bride
+The            det            groom          []
+groom          nsubj          loves          ['The']
+loves          ROOT           loves          ['groom', 'planes', 'more']
+dangerous      amod           planes         []
+planes         dobj           loves          ['dangerous']
+more           advmod         loves          ['than']
+than           prep           more           ['bride']
+the            det            bride          []
+bride          pobj           than           ['the']
+============================================================
+
