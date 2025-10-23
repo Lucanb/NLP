@@ -27,6 +27,34 @@ Modal -> 'can'
 Aux -> 'were' | 'be'
 """)
 
+# grammar = CFG.fromstring("""
+# S -> NP VP | VP
+# NP -> Det N | Det X1 | N | Adj N | NP X2 | NP X3 | V NP
+# X1 -> Adj N
+# X2 -> PP
+# X3 -> Conj NP
+# VP -> V NP | V X4 | V Adj | Modal VP | Aux V | Aux VP | Modal V | VP X5 | VP X6 | V X7 | V X8
+# X4 -> NP PP
+# X5 -> PP
+# X6 -> Conj VP
+# X7 -> P NP
+# X8 -> NP AdvP
+# PP -> P NP
+# AdvP -> Adv | Adv X9 | Adv X10 | AdvP X11
+# X9 -> P NP
+# X10 -> PP
+# X11 -> PP
+# Conj -> 'and'
+# Det -> 'the' | 'a' | 'an'
+# N -> 'planes' | 'parents' | 'bride' | 'groom'
+# V -> 'flying' | 'were' | 'loves' | 'be' | 'can'
+# Adj -> 'dangerous' | 'flying'
+# Adv -> 'more' | 'than'
+# P -> 'of' | 'and' | 'more' | 'than'
+# Modal -> 'can'
+# Aux -> 'were' | 'be'
+# """)
+
 parser = ChartParser(grammar)
 
 sentences = [
