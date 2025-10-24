@@ -1,0 +1,57 @@
+S -> NP VP
+S -> VP
+NP -> Det N
+NP -> Det X1
+X1 -> Adj N
+NP -> N
+NP -> Adj N
+NP -> NP PP
+NP -> NP X2
+X2 -> Conj NP
+NP -> V NP
+VP -> V NP
+VP -> V X3
+X3 -> NP PP
+VP -> V Adj
+VP -> V
+VP -> Modal VP
+VP -> Aux V
+VP -> Aux VP
+VP -> Modal V
+VP -> VP PP
+VP -> VP X4
+X4 -> Conj VP
+VP -> V X5
+X5 -> P NP
+VP -> V X6
+X6 -> NP AdvP
+PP -> P NP
+AdvP -> Adv
+AdvP -> Adv X7
+X7 -> P NP
+AdvP -> Adv PP
+AdvP -> AdvP PP
+Conj -> 'and'
+Det -> 'the'
+Det -> 'a'
+Det -> 'an'
+N -> 'planes'
+N -> 'parents'
+N -> 'bride'
+N -> 'groom'
+V -> 'flying'
+V -> 'were'
+V -> 'loves'
+V -> 'be'
+V -> 'can'
+Adj -> 'dangerous'
+Adj -> 'flying'
+Adv -> 'more'
+Adv -> 'than'
+P -> 'of'
+P -> 'and'
+P -> 'more'
+P -> 'than'
+Modal -> 'can'
+Aux -> 'were'
+Aux -> 'be'
