@@ -1,0 +1,3 @@
+[submodule "NLP_proj"]
+	path = NLP_proj
+	url = https://github.com/Lucanb/NLP_proj.git

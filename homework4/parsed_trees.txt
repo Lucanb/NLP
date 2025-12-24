@@ -1,0 +1,233 @@
+Sentence: flying planes can be dangerous
+Found 2 unique trees.
+
+Tree 1 (ASCII view):
+                    S                    
+         ___________|____                 
+        |                VP              
+        |            ____|___             
+        NP          |        VP          
+   _____|____       |     ___|______      
+ Adj         N    Modal  V         Adj   
+  |          |      |    |          |     
+flying     planes  can   be     dangerous
+
+
+Tree 2 (ASCII view):
+                    S                    
+         ___________|____                 
+        NP               VP              
+   _____|____        ____|___             
+  |          NP     |        VP          
+  |          |      |     ___|______      
+  V          N    Modal  V         Adj   
+  |          |      |    |          |     
+flying     planes  can   be     dangerous
+
+
+============================================================
+
+Sentence: The parents of the bride and the groom were flying
+Found 8 unique trees.
+
+Tree 1 (ASCII view):
+                              S                                     
+                      ________|____________________________          
+                     NP                                    |        
+                  ___|__________________                   |         
+                 NP                     |                  |        
+      ___________|___                   |                  |         
+     |               PP                 X2                 |        
+     |            ___|___           ____|___               |         
+     NP          |       NP        |        NP             VP       
+  ___|_____      |    ___|____     |     ___|____      ____|____     
+Det        N     P  Det       N   Conj Det       N    V        Adj  
+ |         |     |   |        |    |    |        |    |         |    
+the     parents  of the     bride and  the     groom were     flying
+
+
+Tree 2 (ASCII view):
+                              S                                     
+                      ________|____________________________          
+                     NP                                    |        
+      _______________|________                             |         
+     |                        PP                           |        
+     |            ____________|____                        |         
+     |           |                 NP                      |        
+     |           |        _________|____                   |         
+     |           |       |              X2                 |        
+     |           |       |          ____|___               |         
+     NP          |       NP        |        NP             VP       
+  ___|_____      |    ___|____     |     ___|____      ____|____     
+Det        N     P  Det       N   Conj Det       N    V        Adj  
+ |         |     |   |        |    |    |        |    |         |    
+the     parents  of the     bride and  the     groom were     flying
+
+
+Tree 3 (ASCII view):
+                              S                                    
+                      ________|___________________________          
+                     NP                                   |        
+      _______________|________                            |         
+     |                        PP                          |        
+     |            ____________|____                       |         
+     |           |                 NP                     |        
+     |           |        _________|___                   |         
+     |           |       |             PP                 |        
+     |           |       |          ___|___               |         
+     NP          |       NP        |       NP             VP       
+  ___|_____      |    ___|____     |    ___|____      ____|____     
+Det        N     P  Det       N    P  Det       N    V        Adj  
+ |         |     |   |        |    |   |        |    |         |    
+the     parents  of the     bride and the     groom were     flying
+
+
+Tree 4 (ASCII view):
+                              S                                    
+                      ________|___________________________          
+                     NP                                   |        
+                  ___|_________________                   |         
+                 NP                    |                  |        
+      ___________|___                  |                  |         
+     |               PP                PP                 |        
+     |            ___|___           ___|___               |         
+     NP          |       NP        |       NP             VP       
+  ___|_____      |    ___|____     |    ___|____      ____|____     
+Det        N     P  Det       N    P  Det       N    V        Adj  
+ |         |     |   |        |    |   |        |    |         |    
+the     parents  of the     bride and the     groom were     flying
+
+
+Tree 5 (ASCII view):
+                              S                                     
+                      ________|____________________________          
+                     NP                                    |        
+                  ___|__________________                   |         
+                 NP                     |                  |        
+      ___________|___                   |                  |         
+     |               PP                 X2                 |        
+     |            ___|___           ____|___               |         
+     NP          |       NP        |        NP             VP       
+  ___|_____      |    ___|____     |     ___|____      ____|____     
+Det        N     P  Det       N   Conj Det       N   Aux        V   
+ |         |     |   |        |    |    |        |    |         |    
+the     parents  of the     bride and  the     groom were     flying
+
+
+Tree 6 (ASCII view):
+                              S                                     
+                      ________|____________________________          
+                     NP                                    |        
+      _______________|________                             |         
+     |                        PP                           |        
+     |            ____________|____                        |         
+     |           |                 NP                      |        
+     |           |        _________|____                   |         
+     |           |       |              X2                 |        
+     |           |       |          ____|___               |         
+     NP          |       NP        |        NP             VP       
+  ___|_____      |    ___|____     |     ___|____      ____|____     
+Det        N     P  Det       N   Conj Det       N   Aux        V   
+ |         |     |   |        |    |    |        |    |         |    
+the     parents  of the     bride and  the     groom were     flying
+
+
+Tree 7 (ASCII view):
+                              S                                    
+                      ________|___________________________          
+                     NP                                   |        
+      _______________|________                            |         
+     |                        PP                          |        
+     |            ____________|____                       |         
+     |           |                 NP                     |        
+     |           |        _________|___                   |         
+     |           |       |             PP                 |        
+     |           |       |          ___|___               |         
+     NP          |       NP        |       NP             VP       
+  ___|_____      |    ___|____     |    ___|____      ____|____     
+Det        N     P  Det       N    P  Det       N   Aux        V   
+ |         |     |   |        |    |   |        |    |         |    
+the     parents  of the     bride and the     groom were     flying
+
+
+Tree 8 (ASCII view):
+                              S                                    
+                      ________|___________________________          
+                     NP                                   |        
+                  ___|_________________                   |         
+                 NP                    |                  |        
+      ___________|___                  |                  |         
+     |               PP                PP                 |        
+     |            ___|___           ___|___               |         
+     NP          |       NP        |       NP             VP       
+  ___|_____      |    ___|____     |    ___|____      ____|____     
+Det        N     P  Det       N    P  Det       N   Aux        V   
+ |         |     |   |        |    |   |        |    |         |    
+the     parents  of the     bride and the     groom were     flying
+
+
+============================================================
+
+Sentence: The groom loves dangerous planes more than the bride
+Found 3 unique trees.
+
+Tree 1 (ASCII view):
+          S                                                          
+      ____|_____________                                              
+     |                  VP                                           
+     |           _______|_________________                            
+     |          |                         X6                         
+     |          |               __________|_________                  
+     |          |              |                   AdvP              
+     |          |              |           _________|____             
+     |          |              |          |              X8          
+     |          |              |          |     _________|___         
+     NP         |              NP         |    |             NP      
+  ___|____      |        ______|____      |    |          ___|____    
+Det       N     V      Adj          N    Adv   P        Det       N  
+ |        |     |       |           |     |    |         |        |   
+the     groom loves dangerous     planes more than      the     bride
+
+
+Tree 2 (ASCII view):
+          S                                                          
+      ____|_____________                                              
+     |                  VP                                           
+     |           _______|_________________                            
+     |          |                         X6                         
+     |          |               __________|_________                  
+     |          |              |                   AdvP              
+     |          |              |           _________|____             
+     |          |              |          |             X10          
+     |          |              |          |              |            
+     |          |              |          |              PP          
+     |          |              |          |     _________|___         
+     NP         |              NP        AdvP  |             NP      
+  ___|____      |        ______|____      |    |          ___|____    
+Det       N     V      Adj          N    Adv   P        Det       N  
+ |        |     |       |           |     |    |         |        |   
+the     groom loves dangerous     planes more than      the     bride
+
+
+Tree 3 (ASCII view):
+          S                                                          
+      ____|_____________                                              
+     |                  VP                                           
+     |           _______|_________________                            
+     |          |                         X6                         
+     |          |               __________|_________                  
+     |          |              |                   AdvP              
+     |          |              |           _________|____             
+     |          |              |          |              X9          
+     |          |              |          |              |            
+     |          |              |          |              PP          
+     |          |              |          |     _________|___         
+     NP         |              NP         |    |             NP      
+  ___|____      |        ______|____      |    |          ___|____    
+Det       N     V      Adj          N    Adv   P        Det       N  
+ |        |     |       |           |     |    |         |        |   
+the     groom loves dangerous     planes more than      the     bride
+
+
+============================================================
+

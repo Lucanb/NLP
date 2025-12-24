@@ -1,0 +1,18 @@
+# Foldere specifice pe care nu le vrei
+EmotionValArouTimeVariation2026/
+semeval26/
+data/
+env/
+venv/
+
+# Modele mari (HuggingFace / PyTorch)
+*.safetensors
+*.pt
+*.bin
+NLP_proj/models/
+
+# Fisiere sistem si Python cache
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
